@@ -80,11 +80,11 @@
 
 
     <modules>
-        <module>Child/Only Junit</module>
-        <module>Child/Only TestNG</module>
-        <module>Child/Both</module>
-        <module>Child/Infra With Testng</module>
-        <module>Child/using-infra-with-testng</module>
+        <module>Test_Project_Nadav/Only Junit</module>
+        <module>Test_Project_Nadav/Only TestNG</module>
+        <module>Test_Project_Nadav/Both</module>
+        <module>Test_Project_Nadav/Infra With Testng</module>
+        <module>Test_Project_Nadav/using-infra-with-testng</module>
     </modules>
 
 </project>
