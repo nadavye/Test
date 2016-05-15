@@ -1,0 +1,950 @@
+2016-03-20 16:26:55,882 INFO  [main] [ConfigurationManager] getOrLoadConfiguration. Loading configuration from 'C:\Work\Playground\SlTestListenerTest\sealights.json', working directory: 'C:\Work\Playground\SlTestListenerTest\Both'
+2016-03-20 16:26:56,165 INFO  [main] [ConfigurationManager] *************************** Current Configuration **********************************
+2016-03-20 16:26:56,165 INFO  [main] [ConfigurationManager] ConfigurationManager.printConfiguration. Got the following configuration: 
+2016-03-20 16:26:56,166 INFO  [main] [ConfigurationManager] --------------------------------------------------------------------------
+2016-03-20 16:26:56,170 INFO  [main] [ConfigurationManager] ShowBytecodeAfterInstrumentation: 'false'
+2016-03-20 16:26:56,170 INFO  [main] [ConfigurationManager] Includes: '*sllistenertest*'
+2016-03-20 16:26:56,170 INFO  [main] [ConfigurationManager] Interval: '10000'
+2016-03-20 16:26:56,170 INFO  [main] [ConfigurationManager] BuildName: 'null'
+2016-03-20 16:26:56,170 INFO  [main] [ConfigurationManager] BranchName: 'null'
+2016-03-20 16:26:56,171 INFO  [main] [ConfigurationManager] FeaturesData: 'FeaturesData{isAddDefaultExceptionHandler=false, dumpFootprints=false, dumpEvents=false}'
+2016-03-20 16:26:56,171 INFO  [main] [ConfigurationManager] Proxy: 'null'
+2016-03-20 16:26:56,171 INFO  [main] [ConfigurationManager] Mock: 'null'
+2016-03-20 16:26:56,171 INFO  [main] [ConfigurationManager] Excludes: '*FastClassByGuice*, *ByCGLIB*, *EnhancerByMockitoWithCGLIB*'
+2016-03-20 16:26:56,171 INFO  [main] [ConfigurationManager] CustomerId: 'test'
+2016-03-20 16:26:56,171 INFO  [main] [ConfigurationManager] Server: 'http://52.50.60.95:8080/api'
+2016-03-20 16:26:56,171 INFO  [main] [ConfigurationManager] IsEnabled: 'true'
+2016-03-20 16:26:56,174 INFO  [main] [ConfigurationManager] AppName: 'SlTestListenerTest'
+2016-03-20 16:26:56,174 INFO  [main] [ConfigurationManager] EnvironmentName: 'Unit Tests'
+2016-03-20 16:26:56,174 INFO  [main] [ConfigurationManager] InstrumentedPackages: 'null'
+2016-03-20 16:26:56,174 INFO  [main] [ConfigurationManager] MaxItemsInQueue: '1000'
+2016-03-20 16:26:56,174 INFO  [main] [ConfigurationManager] ConfigurationManager.printConfiguration. Log configuration: 
+2016-03-20 16:26:56,175 INFO  [main] [ConfigurationManager] --------------------------------------------------------------------------
+2016-03-20 16:26:56,175 INFO  [main] [ConfigurationManager] Instance: 'LogConfiguration {isEnabled():true, isAppendToConsole():false, isAppendToFile():true, getLogFileName():java-agent, getLogsFolder():logs, getFileCount():10, getLogLimitInKB():10240, getLogLevel():INFO}'
+2016-03-20 16:26:56,175 INFO  [main] [ConfigurationManager] LogsFolder: 'logs'
+2016-03-20 16:26:56,175 INFO  [main] [ConfigurationManager] LogLimitInKB: '10240'
+2016-03-20 16:26:56,175 INFO  [main] [ConfigurationManager] FileCount: '10'
+2016-03-20 16:26:56,175 INFO  [main] [ConfigurationManager] LogLevel: 'INFO'
+2016-03-20 16:26:56,175 INFO  [main] [ConfigurationManager] LogFileName: 'java-agent'
+2016-03-20 16:26:56,175 INFO  [main] [ConfigurationManager] ************************************************************************************
+2016-03-20 16:26:56,201 INFO  [main] [AgentManager] Initializing...
+2016-03-20 16:26:56,203 INFO  [main] [createEventsManager] Starting
+2016-03-20 16:26:56,203 INFO  [main] [EventQueueSender] EventQueueSender started.
+2016-03-20 16:26:56,206 INFO  [main] [AgentManager] Initialized!
+2016-03-20 16:26:56,318 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: sllistenertest/JunitCalcTest
+2016-03-20 16:26:56,359 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: sllistenertest/TestNgCalcTest
+2016-03-20 16:26:56,396 INFO  [main] [SlRunListener] Starting to run tests. description: 'null'
+2016-03-20 16:26:56,396 INFO  [main] [SlRunListener] Initializing...
+2016-03-20 16:26:56,478 INFO  [main] [createEventsManager] Pushing event: 'ExecutionStartEvent{executionId='c6183bf0-7d62-47e7-b450-299180f44fcd', framework='JUnit'}'
+2016-03-20 16:26:56,478 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'null', new: 'c6183bf0-7d62-47e7-b450-299180f44fcd/__init'
+2016-03-20 16:26:56,478 INFO  [main] [FootprintsManager] Adding footprints for test 'null'
+2016-03-20 16:26:56,478 WARN  [main] [FootprintsManager] oldIdentifier was null or empty. Footprints will not be sent.
+2016-03-20 16:26:56,478 INFO  [main] [SlRunListener] TestStart: 0, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-03-20 16:26:56,478 INFO  [main] [SlRunListener] Done Initializing. executionId: 'c6183bf0-7d62-47e7-b450-299180f44fcd'
+2016-03-20 16:26:56,481 INFO  [main] [SlRunListener] Test 'sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12' is starting. Notifying SeaLights.
+2016-03-20 16:26:56,481 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'c6183bf0-7d62-47e7-b450-299180f44fcd/__init', new: 'c6183bf0-7d62-47e7-b450-299180f44fcd/sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-20 16:26:56,481 INFO  [main] [FootprintsManager] Adding footprints for test 'c6183bf0-7d62-47e7-b450-299180f44fcd/__init'
+2016-03-20 16:26:56,482 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '1'
+2016-03-20 16:26:56,502 INFO  [main] [FootprintsManager] Set footprints: [{"name":"public sllistenertest.JunitCalcTest()","hits":1,"hash":"7c3d04b928729f0f27da4739603293ef"}]
+2016-03-20 16:26:56,502 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='c6183bf0-7d62-47e7-b450-299180f44fcd', testName='sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12'}'
+2016-03-20 16:26:56,502 INFO  [main] [SlRunListener] TestStart: 1, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-03-20 16:26:56,503 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: sllistenertest/Calculator
+2016-03-20 16:26:56,506 INFO  [main] [SlRunListener] Test 'sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12' has finished. hasTestPassed: 'true'
+2016-03-20 16:26:56,506 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='c6183bf0-7d62-47e7-b450-299180f44fcd', testName='sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12'}'
+2016-03-20 16:26:56,507 INFO  [main] [SlRunListener] TestStart: 1, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-03-20 16:26:56,507 INFO  [main] [SlRunListener] Test 'sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10' is starting. Notifying SeaLights.
+2016-03-20 16:26:56,508 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'c6183bf0-7d62-47e7-b450-299180f44fcd/sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12', new: 'c6183bf0-7d62-47e7-b450-299180f44fcd/sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-20 16:26:56,508 INFO  [main] [FootprintsManager] Adding footprints for test 'c6183bf0-7d62-47e7-b450-299180f44fcd/sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-20 16:26:56,508 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '4'
+2016-03-20 16:26:56,508 INFO  [main] [FootprintsManager] Set footprints: [{"name":"public sllistenertest.JunitCalcTest()","hits":1,"hash":"7c3d04b928729f0f27da4739603293ef"},{"name":"public void sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12()","hits":1,"hash":"fea47a8531b5c8176e0f7b240dfa5c97"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"}]
+2016-03-20 16:26:56,508 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='c6183bf0-7d62-47e7-b450-299180f44fcd', testName='sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'}'
+2016-03-20 16:26:56,508 INFO  [main] [SlRunListener] TestStart: 2, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-03-20 16:26:56,508 INFO  [main] [SlRunListener] Test 'sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10' has finished. hasTestPassed: 'true'
+2016-03-20 16:26:56,508 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='c6183bf0-7d62-47e7-b450-299180f44fcd', testName='sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'}'
+2016-03-20 16:26:56,508 INFO  [main] [SlRunListener] TestStart: 2, TestEnd: 2, ExecStart:1 ExecEnd: 0
+2016-03-20 16:26:56,512 INFO  [main] [SlRunListener] Finished running all tests for executionId: 'c6183bf0-7d62-47e7-b450-299180f44fcd'
+2016-03-20 16:26:56,512 INFO  [main] [createEventsManager] Pushing event: 'ExecutionEndEvent{executionId='c6183bf0-7d62-47e7-b450-299180f44fcd'}'
+2016-03-20 16:26:56,512 INFO  [main] [SlRunListener] TestStart: 2, TestEnd: 2, ExecStart:1 ExecEnd: 1
+2016-03-20 16:26:56,514 INFO  [Thread-0] [createEventsManager] Shutting down
+2016-03-20 16:26:56,514 INFO  [Thread-0] [EventQueueSender] EventQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-03-20 16:26:56,522 INFO  [Thread-0] [EventsServiceProxy] [TO ES] - Submitting data. Sending '6' events
+2016-03-20 16:26:56,604 INFO  [Thread-0] [HttpClient] sendRequest was called. Remote url:'http://52.50.60.95:8080/api/v1/testevents/'.
+2016-03-20 16:26:56,916 INFO  [Thread-0] [EventsServiceProxy] [FROM ES] - Done submitting data.
+2016-03-20 16:26:56,916 INFO  [Thread-0] [EventQueueSender] submitData. Nothing to send - queue is empty.
+2016-03-20 16:26:56,916 INFO  [Thread-0] [FootprintsManager] AgentManager.shutdown - Trigger shutdown sequence.
+2016-03-20 16:26:56,916 INFO  [Thread-0] [FootprintsManager] Adding footprints for test 'c6183bf0-7d62-47e7-b450-299180f44fcd/sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-20 16:26:56,916 INFO  [Thread-0] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '4'
+2016-03-20 16:26:56,918 INFO  [Thread-0] [FootprintsManager] Set footprints: [{"name":"public void sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10()","hits":1,"hash":"39e2f844c2de935316e4b3d0895da0c2"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"},{"name":"public int sllistenertest.Calculator.divide(int, int)","hits":1,"hash":"cbf878ab5c818ae77c9c78b22fc7251f"}]
+2016-03-20 16:26:56,919 INFO  [Thread-0] [FootprintsQueueSender] FootprintsQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-03-20 16:26:56,924 INFO  [Thread-0] [FootprintsServiceProxy] [TO FPS] - Total items in queue: 3, queueContents: [{"testName":"__init","executionId":"c6183bf0-7d62-47e7-b450-299180f44fcd","localTime":1458484016502,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public sllistenertest.JunitCalcTest()","hits":1,"hash":"7c3d04b928729f0f27da4739603293ef"}]}]},{"testName":"sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12","executionId":"c6183bf0-7d62-47e7-b450-299180f44fcd","localTime":1458484016508,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public sllistenertest.JunitCalcTest()","hits":1,"hash":"7c3d04b928729f0f27da4739603293ef"},{"name":"public void sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12()","hits":1,"hash":"fea47a8531b5c8176e0f7b240dfa5c97"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"}]}]},{"testName":"sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10","executionId":"c6183bf0-7d62-47e7-b450-299180f44fcd","localTime":1458484016919,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public void sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10()","hits":1,"hash":"39e2f844c2de935316e4b3d0895da0c2"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"},{"name":"public int sllistenertest.Calculator.divide(int, int)","hits":1,"hash":"cbf878ab5c818ae77c9c78b22fc7251f"}]}]}]
+2016-03-20 16:26:56,926 INFO  [Thread-0] [HttpClient] sendRequest was called. Remote url:'http://52.50.60.95:8080/api/v1/testfootprints/'.
+2016-03-20 16:26:57,114 INFO  [Thread-0] [FootprintsServiceProxy] [FROM FPS]
+2016-03-20 16:26:57,114 INFO  [Thread-0] [FootprintsQueueSender] submitData. Nothing to send - queue is empty.
+2016-03-20 16:26:57,857 INFO  [main] [ConfigurationManager] getOrLoadConfiguration. Loading configuration from 'C:\Work\Playground\SlTestListenerTest\sealights.json', working directory: 'C:\Work\Playground\SlTestListenerTest\Both'
+2016-03-20 16:26:58,145 INFO  [main] [ConfigurationManager] *************************** Current Configuration **********************************
+2016-03-20 16:26:58,145 INFO  [main] [ConfigurationManager] ConfigurationManager.printConfiguration. Got the following configuration: 
+2016-03-20 16:26:58,145 INFO  [main] [ConfigurationManager] --------------------------------------------------------------------------
+2016-03-20 16:26:58,146 INFO  [main] [ConfigurationManager] EnvironmentName: 'Unit Tests'
+2016-03-20 16:26:58,146 INFO  [main] [ConfigurationManager] ShowBytecodeAfterInstrumentation: 'false'
+2016-03-20 16:26:58,146 INFO  [main] [ConfigurationManager] MaxItemsInQueue: '1000'
+2016-03-20 16:26:58,146 INFO  [main] [ConfigurationManager] InstrumentedPackages: 'null'
+2016-03-20 16:26:58,146 INFO  [main] [ConfigurationManager] IsEnabled: 'true'
+2016-03-20 16:26:58,146 INFO  [main] [ConfigurationManager] Mock: 'null'
+2016-03-20 16:26:58,147 INFO  [main] [ConfigurationManager] CustomerId: 'test'
+2016-03-20 16:26:58,147 INFO  [main] [ConfigurationManager] Interval: '10000'
+2016-03-20 16:26:58,147 INFO  [main] [ConfigurationManager] BuildName: 'null'
+2016-03-20 16:26:58,147 INFO  [main] [ConfigurationManager] Proxy: 'null'
+2016-03-20 16:26:58,147 INFO  [main] [ConfigurationManager] FeaturesData: 'FeaturesData{isAddDefaultExceptionHandler=false, dumpFootprints=false, dumpEvents=false}'
+2016-03-20 16:26:58,147 INFO  [main] [ConfigurationManager] BranchName: 'null'
+2016-03-20 16:26:58,150 INFO  [main] [ConfigurationManager] AppName: 'SlTestListenerTest'
+2016-03-20 16:26:58,150 INFO  [main] [ConfigurationManager] Server: 'http://52.50.60.95:8080/api'
+2016-03-20 16:26:58,150 INFO  [main] [ConfigurationManager] Includes: '*sllistenertest*'
+2016-03-20 16:26:58,150 INFO  [main] [ConfigurationManager] Excludes: '*FastClassByGuice*, *ByCGLIB*, *EnhancerByMockitoWithCGLIB*'
+2016-03-20 16:26:58,150 INFO  [main] [ConfigurationManager] ConfigurationManager.printConfiguration. Log configuration: 
+2016-03-20 16:26:58,150 INFO  [main] [ConfigurationManager] --------------------------------------------------------------------------
+2016-03-20 16:26:58,150 INFO  [main] [ConfigurationManager] Instance: 'LogConfiguration {isEnabled():true, isAppendToConsole():false, isAppendToFile():true, getLogFileName():java-agent, getLogsFolder():logs, getFileCount():10, getLogLimitInKB():10240, getLogLevel():INFO}'
+2016-03-20 16:26:58,150 INFO  [main] [ConfigurationManager] LogLevel: 'INFO'
+2016-03-20 16:26:58,150 INFO  [main] [ConfigurationManager] FileCount: '10'
+2016-03-20 16:26:58,151 INFO  [main] [ConfigurationManager] LogFileName: 'java-agent'
+2016-03-20 16:26:58,151 INFO  [main] [ConfigurationManager] LogLimitInKB: '10240'
+2016-03-20 16:26:58,151 INFO  [main] [ConfigurationManager] LogsFolder: 'logs'
+2016-03-20 16:26:58,151 INFO  [main] [ConfigurationManager] ************************************************************************************
+2016-03-20 16:26:58,177 INFO  [main] [AgentManager] Initializing...
+2016-03-20 16:26:58,178 INFO  [main] [createEventsManager] Starting
+2016-03-20 16:26:58,178 INFO  [main] [EventQueueSender] EventQueueSender started.
+2016-03-20 16:26:58,182 INFO  [main] [AgentManager] Initialized!
+2016-03-20 16:26:58,271 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: sllistenertest/JunitCalcTest
+2016-03-20 16:26:58,313 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: sllistenertest/TestNgCalcTest
+2016-03-20 16:26:58,508 INFO  [main] [TestListener] Initializing  'io.sealights.onpremise.agents.java.agent.integrations.testng.TestListener'
+2016-03-20 16:26:58,511 INFO  [main] [createEventsManager] Pushing event: 'ExecutionStartEvent{executionId='891176c3-6eda-4122-9c04-92842ed4e055', framework='TestNG'}'
+2016-03-20 16:26:58,511 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'null', new: '891176c3-6eda-4122-9c04-92842ed4e055/__init'
+2016-03-20 16:26:58,511 INFO  [main] [FootprintsManager] Adding footprints for test 'null'
+2016-03-20 16:26:58,511 WARN  [main] [FootprintsManager] oldIdentifier was null or empty. Footprints will not be sent.
+2016-03-20 16:26:58,511 INFO  [main] [TestListener] TestStart: 0, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-03-20 16:26:58,511 INFO  [main] [TestListener] Done Initializing. executionId:  '891176c3-6eda-4122-9c04-92842ed4e055'
+2016-03-20 16:26:58,511 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: '891176c3-6eda-4122-9c04-92842ed4e055/__init', new: '891176c3-6eda-4122-9c04-92842ed4e055/sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-20 16:26:58,511 INFO  [main] [FootprintsManager] Adding footprints for test '891176c3-6eda-4122-9c04-92842ed4e055/__init'
+2016-03-20 16:26:58,512 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '2'
+2016-03-20 16:26:58,532 INFO  [main] [FootprintsManager] Set footprints: [{"name":"public sllistenertest.TestNgCalcTest()","hits":1,"hash":"eb1aa9a29bb42acbccfe52a058cc99bd"},{"name":"static sllistenertest.TestNgCalcTest()","hits":1,"hash":"f055dae2aeaba6a5fdb404c24b412f98"}]
+2016-03-20 16:26:58,533 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='891176c3-6eda-4122-9c04-92842ed4e055', testName='sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10'}'
+2016-03-20 16:26:58,533 INFO  [main] [TestListener] TestStart: 1, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-03-20 16:26:58,535 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: sllistenertest/Calculator
+2016-03-20 16:26:58,537 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='891176c3-6eda-4122-9c04-92842ed4e055', testName='sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10'}'
+2016-03-20 16:26:58,538 INFO  [main] [TestListener] TestStart: 1, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-03-20 16:26:58,538 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: '891176c3-6eda-4122-9c04-92842ed4e055/sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10', new: '891176c3-6eda-4122-9c04-92842ed4e055/sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11'
+2016-03-20 16:26:58,538 INFO  [main] [FootprintsManager] Adding footprints for test '891176c3-6eda-4122-9c04-92842ed4e055/sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-20 16:26:58,538 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '4'
+2016-03-20 16:26:58,538 INFO  [main] [FootprintsManager] Set footprints: [{"name":"public void sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10()","hits":1,"hash":"9ef08bba3748d32ce1951158b5d8cf97"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"},{"name":"public int sllistenertest.Calculator.divide(int, int)","hits":1,"hash":"cbf878ab5c818ae77c9c78b22fc7251f"}]
+2016-03-20 16:26:58,538 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='891176c3-6eda-4122-9c04-92842ed4e055', testName='sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11'}'
+2016-03-20 16:26:58,538 INFO  [main] [TestListener] TestStart: 2, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-03-20 16:26:58,538 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='891176c3-6eda-4122-9c04-92842ed4e055', testName='sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11'}'
+2016-03-20 16:26:58,538 INFO  [main] [TestListener] TestStart: 2, TestEnd: 2, ExecStart:1 ExecEnd: 0
+2016-03-20 16:26:58,538 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: '891176c3-6eda-4122-9c04-92842ed4e055/sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11', new: '891176c3-6eda-4122-9c04-92842ed4e055/sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-20 16:26:58,538 INFO  [main] [FootprintsManager] Adding footprints for test '891176c3-6eda-4122-9c04-92842ed4e055/sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11'
+2016-03-20 16:26:58,538 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '4'
+2016-03-20 16:26:58,539 INFO  [main] [FootprintsManager] Set footprints: [{"name":"public void sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11()","hits":1,"hash":"a4d1f599a25a76b4fc3f447e9789bb9d"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"},{"name":"public int sllistenertest.Calculator.divide(int, int)","hits":1,"hash":"cbf878ab5c818ae77c9c78b22fc7251f"}]
+2016-03-20 16:26:58,539 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='891176c3-6eda-4122-9c04-92842ed4e055', testName='sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'}'
+2016-03-20 16:26:58,541 INFO  [main] [TestListener] TestStart: 3, TestEnd: 2, ExecStart:1 ExecEnd: 0
+2016-03-20 16:26:58,542 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='891176c3-6eda-4122-9c04-92842ed4e055', testName='sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'}'
+2016-03-20 16:26:58,542 INFO  [main] [TestListener] TestStart: 3, TestEnd: 3, ExecStart:1 ExecEnd: 0
+2016-03-20 16:26:58,639 INFO  [Thread-0] [createEventsManager] Shutting down
+2016-03-20 16:26:58,639 INFO  [Thread-0] [EventQueueSender] EventQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-03-20 16:26:58,644 INFO  [Thread-0] [EventsServiceProxy] [TO ES] - Submitting data. Sending '7' events
+2016-03-20 16:26:58,720 INFO  [Thread-0] [HttpClient] sendRequest was called. Remote url:'http://52.50.60.95:8080/api/v1/testevents/'.
+2016-03-20 16:26:59,022 INFO  [Thread-0] [EventsServiceProxy] [FROM ES] - Done submitting data.
+2016-03-20 16:26:59,023 INFO  [Thread-0] [EventQueueSender] submitData. Nothing to send - queue is empty.
+2016-03-20 16:26:59,023 INFO  [Thread-0] [FootprintsManager] AgentManager.shutdown - Trigger shutdown sequence.
+2016-03-20 16:26:59,023 INFO  [Thread-0] [FootprintsManager] Adding footprints for test '891176c3-6eda-4122-9c04-92842ed4e055/sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-20 16:26:59,023 INFO  [Thread-0] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '3'
+2016-03-20 16:26:59,024 INFO  [Thread-0] [FootprintsManager] Set footprints: [{"name":"public void sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12()","hits":1,"hash":"47e212edf9c52bab44e4754668526fc2"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"}]
+2016-03-20 16:26:59,024 INFO  [Thread-0] [FootprintsQueueSender] FootprintsQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-03-20 16:26:59,029 INFO  [Thread-0] [FootprintsServiceProxy] [TO FPS] - Total items in queue: 4, queueContents: [{"testName":"__init","executionId":"891176c3-6eda-4122-9c04-92842ed4e055","localTime":1458484018532,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public sllistenertest.TestNgCalcTest()","hits":1,"hash":"eb1aa9a29bb42acbccfe52a058cc99bd"},{"name":"static sllistenertest.TestNgCalcTest()","hits":1,"hash":"f055dae2aeaba6a5fdb404c24b412f98"}]}]},{"testName":"sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10","executionId":"891176c3-6eda-4122-9c04-92842ed4e055","localTime":1458484018538,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public void sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10()","hits":1,"hash":"9ef08bba3748d32ce1951158b5d8cf97"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"},{"name":"public int sllistenertest.Calculator.divide(int, int)","hits":1,"hash":"cbf878ab5c818ae77c9c78b22fc7251f"}]}]},{"testName":"sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11","executionId":"891176c3-6eda-4122-9c04-92842ed4e055","localTime":1458484018539,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public void sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11()","hits":1,"hash":"a4d1f599a25a76b4fc3f447e9789bb9d"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"},{"name":"public int sllistenertest.Calculator.divide(int, int)","hits":1,"hash":"cbf878ab5c818ae77c9c78b22fc7251f"}]}]},{"testName":"sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12","executionId":"891176c3-6eda-4122-9c04-92842ed4e055","localTime":1458484019024,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public void sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12()","hits":1,"hash":"47e212edf9c52bab44e4754668526fc2"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"}]}]}]
+2016-03-20 16:26:59,032 INFO  [Thread-0] [HttpClient] sendRequest was called. Remote url:'http://52.50.60.95:8080/api/v1/testfootprints/'.
+2016-03-20 16:26:59,317 INFO  [Thread-0] [FootprintsServiceProxy] [FROM FPS]
+2016-03-20 16:26:59,317 INFO  [Thread-0] [FootprintsQueueSender] submitData. Nothing to send - queue is empty.
+2016-03-22 08:38:37,322 INFO  [main] [ConfigurationManager] getOrLoadConfiguration. Loading configuration from 'C:\Work\Playground\SlTestListenerTest\sealights.json', working directory: 'C:\Work\Playground\SlTestListenerTest\Both'
+2016-03-22 08:38:37,604 INFO  [main] [ConfigurationManager] *************************** Current Configuration **********************************
+2016-03-22 08:38:37,604 INFO  [main] [ConfigurationManager] ConfigurationManager.printConfiguration. Got the following configuration: 
+2016-03-22 08:38:37,604 INFO  [main] [ConfigurationManager] --------------------------------------------------------------------------
+2016-03-22 08:38:37,605 INFO  [main] [ConfigurationManager] ShowBytecodeAfterInstrumentation: 'false'
+2016-03-22 08:38:37,605 INFO  [main] [ConfigurationManager] EnvironmentName: 'Unit Tests'
+2016-03-22 08:38:37,605 INFO  [main] [ConfigurationManager] InstrumentedPackages: 'null'
+2016-03-22 08:38:37,606 INFO  [main] [ConfigurationManager] MaxItemsInQueue: '1000'
+2016-03-22 08:38:37,606 INFO  [main] [ConfigurationManager] Mock: 'null'
+2016-03-22 08:38:37,606 INFO  [main] [ConfigurationManager] BuildName: 'null'
+2016-03-22 08:38:37,606 INFO  [main] [ConfigurationManager] Excludes: '*FastClassByGuice*, *ByCGLIB*, *EnhancerByMockitoWithCGLIB*'
+2016-03-22 08:38:37,606 INFO  [main] [ConfigurationManager] BranchName: 'null'
+2016-03-22 08:38:37,606 INFO  [main] [ConfigurationManager] FeaturesData: 'FeaturesData{isAddDefaultExceptionHandler=false, dumpFootprints=false, dumpEvents=false}'
+2016-03-22 08:38:37,606 INFO  [main] [ConfigurationManager] Includes: '*sllistenertest*'
+2016-03-22 08:38:37,606 INFO  [main] [ConfigurationManager] Interval: '10000'
+2016-03-22 08:38:37,606 INFO  [main] [ConfigurationManager] Server: 'http://52.50.60.95:8080/api'
+2016-03-22 08:38:37,612 INFO  [main] [ConfigurationManager] Proxy: 'null'
+2016-03-22 08:38:37,612 INFO  [main] [ConfigurationManager] CustomerId: 'test'
+2016-03-22 08:38:37,613 INFO  [main] [ConfigurationManager] IsEnabled: 'true'
+2016-03-22 08:38:37,613 INFO  [main] [ConfigurationManager] AppName: 'SlTestListenerTest'
+2016-03-22 08:38:37,613 INFO  [main] [ConfigurationManager] ConfigurationManager.printConfiguration. Log configuration: 
+2016-03-22 08:38:37,613 INFO  [main] [ConfigurationManager] --------------------------------------------------------------------------
+2016-03-22 08:38:37,613 INFO  [main] [ConfigurationManager] Instance: 'LogConfiguration {isEnabled():true, isAppendToConsole():false, isAppendToFile():true, getLogFileName():java-agent, getLogsFolder():logs, getFileCount():10, getLogLimitInKB():10240, getLogLevel():INFO}'
+2016-03-22 08:38:37,613 INFO  [main] [ConfigurationManager] LogLevel: 'INFO'
+2016-03-22 08:38:37,613 INFO  [main] [ConfigurationManager] FileCount: '10'
+2016-03-22 08:38:37,613 INFO  [main] [ConfigurationManager] LogLimitInKB: '10240'
+2016-03-22 08:38:37,613 INFO  [main] [ConfigurationManager] LogFileName: 'java-agent'
+2016-03-22 08:38:37,613 INFO  [main] [ConfigurationManager] LogsFolder: 'logs'
+2016-03-22 08:38:37,613 INFO  [main] [ConfigurationManager] ************************************************************************************
+2016-03-22 08:38:37,638 INFO  [main] [AgentManager] Initializing...
+2016-03-22 08:38:37,640 INFO  [main] [createEventsManager] Starting
+2016-03-22 08:38:37,640 INFO  [main] [EventQueueSender] EventQueueSender started.
+2016-03-22 08:38:37,644 INFO  [main] [AgentManager] Initialized!
+2016-03-22 08:38:37,800 INFO  [main] [SlRunListener] Starting to run tests. description: 'null'
+2016-03-22 08:38:37,800 INFO  [main] [SlRunListener] Initializing...
+2016-03-22 08:38:37,889 INFO  [main] [createEventsManager] Pushing event: 'ExecutionStartEvent{executionId='fcb61a8b-22e7-408e-91ef-f46583acedea', framework='JUnit'}'
+2016-03-22 08:38:37,889 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'null', new: 'fcb61a8b-22e7-408e-91ef-f46583acedea/__init'
+2016-03-22 08:38:37,889 INFO  [main] [FootprintsManager] Adding footprints for test 'null'
+2016-03-22 08:38:37,889 WARN  [main] [FootprintsManager] oldIdentifier was null or empty. Footprints will not be sent.
+2016-03-22 08:38:37,889 INFO  [main] [SlRunListener] TestStart: 0, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-03-22 08:38:37,889 INFO  [main] [SlRunListener] Done Initializing. executionId: 'fcb61a8b-22e7-408e-91ef-f46583acedea'
+2016-03-22 08:38:37,892 INFO  [main] [SlRunListener] Test 'sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12' is starting. Notifying SeaLights.
+2016-03-22 08:38:37,892 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'fcb61a8b-22e7-408e-91ef-f46583acedea/__init', new: 'fcb61a8b-22e7-408e-91ef-f46583acedea/sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:38:37,892 INFO  [main] [FootprintsManager] Adding footprints for test 'fcb61a8b-22e7-408e-91ef-f46583acedea/__init'
+2016-03-22 08:38:37,892 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '0'
+2016-03-22 08:38:37,897 INFO  [main] [FootprintsManager] Empty footprints for test 'fcb61a8b-22e7-408e-91ef-f46583acedea/__init'
+2016-03-22 08:38:37,897 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='fcb61a8b-22e7-408e-91ef-f46583acedea', testName='sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12'}'
+2016-03-22 08:38:37,897 INFO  [main] [SlRunListener] TestStart: 1, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-03-22 08:38:37,902 INFO  [main] [SlRunListener] Test 'sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12' has finished. hasTestPassed: 'true'
+2016-03-22 08:38:37,902 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='fcb61a8b-22e7-408e-91ef-f46583acedea', testName='sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12'}'
+2016-03-22 08:38:37,902 INFO  [main] [SlRunListener] TestStart: 1, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-03-22 08:38:37,903 INFO  [main] [SlRunListener] Test 'sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10' is starting. Notifying SeaLights.
+2016-03-22 08:38:37,903 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'fcb61a8b-22e7-408e-91ef-f46583acedea/sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12', new: 'fcb61a8b-22e7-408e-91ef-f46583acedea/sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:38:37,903 INFO  [main] [FootprintsManager] Adding footprints for test 'fcb61a8b-22e7-408e-91ef-f46583acedea/sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:38:37,903 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '0'
+2016-03-22 08:38:37,903 INFO  [main] [FootprintsManager] Empty footprints for test 'fcb61a8b-22e7-408e-91ef-f46583acedea/sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:38:37,903 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='fcb61a8b-22e7-408e-91ef-f46583acedea', testName='sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'}'
+2016-03-22 08:38:37,903 INFO  [main] [SlRunListener] TestStart: 2, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-03-22 08:38:37,903 INFO  [main] [SlRunListener] Test 'sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10' has finished. hasTestPassed: 'true'
+2016-03-22 08:38:37,903 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='fcb61a8b-22e7-408e-91ef-f46583acedea', testName='sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'}'
+2016-03-22 08:38:37,903 INFO  [main] [SlRunListener] TestStart: 2, TestEnd: 2, ExecStart:1 ExecEnd: 0
+2016-03-22 08:38:37,903 INFO  [main] [SlRunListener] Finished running all tests for executionId: 'fcb61a8b-22e7-408e-91ef-f46583acedea'
+2016-03-22 08:38:37,904 INFO  [main] [createEventsManager] Pushing event: 'ExecutionEndEvent{executionId='fcb61a8b-22e7-408e-91ef-f46583acedea'}'
+2016-03-22 08:38:37,904 INFO  [main] [SlRunListener] TestStart: 2, TestEnd: 2, ExecStart:1 ExecEnd: 1
+2016-03-22 08:38:37,909 INFO  [Thread-0] [createEventsManager] Shutting down
+2016-03-22 08:38:37,909 INFO  [Thread-0] [EventQueueSender] EventQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-03-22 08:38:37,916 INFO  [Thread-0] [EventsServiceProxy] [TO ES] - Submitting data. Sending '6' events
+2016-03-22 08:38:38,016 INFO  [Thread-0] [HttpClient] sendRequest was called. Remote url:'http://52.50.60.95:8080/api/v1/testevents/'.
+2016-03-22 08:38:47,640 INFO  [pool-1-thread-1] [FootprintsManager] sendCurrentTestPartialFootprints: current test identifier is: 'fcb61a8b-22e7-408e-91ef-f46583acedea/sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:38:47,640 INFO  [pool-1-thread-1] [FootprintsManager] Adding footprints for test 'fcb61a8b-22e7-408e-91ef-f46583acedea/sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:38:47,641 INFO  [pool-1-thread-1] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '0'
+2016-03-22 08:38:47,641 INFO  [pool-1-thread-1] [FootprintsManager] Empty footprints for test 'fcb61a8b-22e7-408e-91ef-f46583acedea/sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:38:48,026 ERROR [Thread-0] [HttpClient] Failed to send 'POST' request to 'http://52.50.60.95:8080/api/v1/testevents/'. Error: java.net.SocketTimeoutException: connect timed out
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_66]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_66]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_66]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_66]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_66]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1283) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1258) ~[na:1.8.0_66]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.writeRequestBodyToOutputStream(HttpClient.java:138) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:49) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.sendHttpRequest(JsonClient.java:184) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:91) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:85) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventsServiceProxy.submitEvents(EventsServiceProxy.java:60) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender$1.execute(EventQueueSender.java:75) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender.shutdown(EventQueueSender.java:40) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.EventsManager.shutDown(EventsManager.java:37) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.shutdown(AgentManager.java:132) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.access$000(AgentManager.java:16) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager$1.run(AgentManager.java:145) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+2016-03-22 08:38:48,027 ERROR [Thread-0] [EventsServiceProxy] Failed while trying to submit events. Error:
+java.lang.RuntimeException: Failed to send 'POST' request to 'http://52.50.60.95:8080/api/v1/testevents/'. Error: java.net.SocketTimeoutException: connect timed out
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:67) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.sendHttpRequest(JsonClient.java:184) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:91) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:85) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventsServiceProxy.submitEvents(EventsServiceProxy.java:60) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender$1.execute(EventQueueSender.java:75) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender.shutdown(EventQueueSender.java:40) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.EventsManager.shutDown(EventsManager.java:37) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.shutdown(AgentManager.java:132) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.access$000(AgentManager.java:16) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager$1.run(AgentManager.java:145) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_66]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_66]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_66]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_66]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_66]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1283) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1258) ~[na:1.8.0_66]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.writeRequestBodyToOutputStream(HttpClient.java:138) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:49) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	... 10 common frames omitted
+2016-03-22 08:38:48,027 ERROR [Thread-0] [EventQueueSender] Not re-queuing events after failed submissions -- system is in the process of shutting down
+2016-03-22 08:38:48,027 INFO  [Thread-0] [EventQueueSender] submitData. Nothing to send - queue is empty.
+2016-03-22 08:38:48,027 INFO  [Thread-0] [FootprintsManager] AgentManager.shutdown - Trigger shutdown sequence.
+2016-03-22 08:38:48,027 INFO  [Thread-0] [FootprintsManager] Adding footprints for test 'fcb61a8b-22e7-408e-91ef-f46583acedea/sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:38:48,027 INFO  [Thread-0] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '0'
+2016-03-22 08:38:48,027 INFO  [Thread-0] [FootprintsManager] Empty footprints for test 'fcb61a8b-22e7-408e-91ef-f46583acedea/sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:38:48,027 INFO  [Thread-0] [FootprintsQueueSender] FootprintsQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-03-22 08:38:48,027 INFO  [Thread-0] [FootprintsQueueSender] submitData. Nothing to send - queue is empty.
+2016-03-22 08:38:48,936 INFO  [main] [ConfigurationManager] getOrLoadConfiguration. Loading configuration from 'C:\Work\Playground\SlTestListenerTest\sealights.json', working directory: 'C:\Work\Playground\SlTestListenerTest\Both'
+2016-03-22 08:38:49,225 INFO  [main] [ConfigurationManager] *************************** Current Configuration **********************************
+2016-03-22 08:38:49,225 INFO  [main] [ConfigurationManager] ConfigurationManager.printConfiguration. Got the following configuration: 
+2016-03-22 08:38:49,225 INFO  [main] [ConfigurationManager] --------------------------------------------------------------------------
+2016-03-22 08:38:49,226 INFO  [main] [ConfigurationManager] EnvironmentName: 'Unit Tests'
+2016-03-22 08:38:49,226 INFO  [main] [ConfigurationManager] ShowBytecodeAfterInstrumentation: 'false'
+2016-03-22 08:38:49,226 INFO  [main] [ConfigurationManager] IsEnabled: 'true'
+2016-03-22 08:38:49,226 INFO  [main] [ConfigurationManager] InstrumentedPackages: 'null'
+2016-03-22 08:38:49,226 INFO  [main] [ConfigurationManager] MaxItemsInQueue: '1000'
+2016-03-22 08:38:49,226 INFO  [main] [ConfigurationManager] Interval: '10000'
+2016-03-22 08:38:49,226 INFO  [main] [ConfigurationManager] Server: 'http://52.50.60.95:8080/api'
+2016-03-22 08:38:49,226 INFO  [main] [ConfigurationManager] BranchName: 'null'
+2016-03-22 08:38:49,227 INFO  [main] [ConfigurationManager] CustomerId: 'test'
+2016-03-22 08:38:49,227 INFO  [main] [ConfigurationManager] Proxy: 'null'
+2016-03-22 08:38:49,227 INFO  [main] [ConfigurationManager] FeaturesData: 'FeaturesData{isAddDefaultExceptionHandler=false, dumpFootprints=false, dumpEvents=false}'
+2016-03-22 08:38:49,227 INFO  [main] [ConfigurationManager] AppName: 'SlTestListenerTest'
+2016-03-22 08:38:49,230 INFO  [main] [ConfigurationManager] BuildName: 'null'
+2016-03-22 08:38:49,230 INFO  [main] [ConfigurationManager] Excludes: '*FastClassByGuice*, *ByCGLIB*, *EnhancerByMockitoWithCGLIB*'
+2016-03-22 08:38:49,230 INFO  [main] [ConfigurationManager] Includes: '*sllistenertest*'
+2016-03-22 08:38:49,230 INFO  [main] [ConfigurationManager] Mock: 'null'
+2016-03-22 08:38:49,230 INFO  [main] [ConfigurationManager] ConfigurationManager.printConfiguration. Log configuration: 
+2016-03-22 08:38:49,230 INFO  [main] [ConfigurationManager] --------------------------------------------------------------------------
+2016-03-22 08:38:49,230 INFO  [main] [ConfigurationManager] Instance: 'LogConfiguration {isEnabled():true, isAppendToConsole():false, isAppendToFile():true, getLogFileName():java-agent, getLogsFolder():logs, getFileCount():10, getLogLimitInKB():10240, getLogLevel():INFO}'
+2016-03-22 08:38:49,230 INFO  [main] [ConfigurationManager] FileCount: '10'
+2016-03-22 08:38:49,231 INFO  [main] [ConfigurationManager] LogsFolder: 'logs'
+2016-03-22 08:38:49,231 INFO  [main] [ConfigurationManager] LogFileName: 'java-agent'
+2016-03-22 08:38:49,231 INFO  [main] [ConfigurationManager] LogLevel: 'INFO'
+2016-03-22 08:38:49,231 INFO  [main] [ConfigurationManager] LogLimitInKB: '10240'
+2016-03-22 08:38:49,231 INFO  [main] [ConfigurationManager] ************************************************************************************
+2016-03-22 08:38:49,255 INFO  [main] [AgentManager] Initializing...
+2016-03-22 08:38:49,256 INFO  [main] [createEventsManager] Starting
+2016-03-22 08:38:49,256 INFO  [main] [EventQueueSender] EventQueueSender started.
+2016-03-22 08:38:49,260 INFO  [main] [AgentManager] Initialized!
+2016-03-22 08:38:49,648 INFO  [main] [TestListener] Initializing  'io.sealights.onpremise.agents.java.agent.integrations.testng.TestListener'
+2016-03-22 08:38:49,650 INFO  [main] [createEventsManager] Pushing event: 'ExecutionStartEvent{executionId='afac8812-4b6f-4d61-b00e-7d73a82665c3', framework='TestNG'}'
+2016-03-22 08:38:49,651 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'null', new: 'afac8812-4b6f-4d61-b00e-7d73a82665c3/__init'
+2016-03-22 08:38:49,651 INFO  [main] [FootprintsManager] Adding footprints for test 'null'
+2016-03-22 08:38:49,651 WARN  [main] [FootprintsManager] oldIdentifier was null or empty. Footprints will not be sent.
+2016-03-22 08:38:49,651 INFO  [main] [TestListener] TestStart: 0, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-03-22 08:38:49,651 INFO  [main] [TestListener] Done Initializing. executionId:  'afac8812-4b6f-4d61-b00e-7d73a82665c3'
+2016-03-22 08:38:49,651 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'afac8812-4b6f-4d61-b00e-7d73a82665c3/__init', new: 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:38:49,651 INFO  [main] [FootprintsManager] Adding footprints for test 'afac8812-4b6f-4d61-b00e-7d73a82665c3/__init'
+2016-03-22 08:38:49,651 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '0'
+2016-03-22 08:38:49,656 INFO  [main] [FootprintsManager] Empty footprints for test 'afac8812-4b6f-4d61-b00e-7d73a82665c3/__init'
+2016-03-22 08:38:49,656 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='afac8812-4b6f-4d61-b00e-7d73a82665c3', testName='sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10'}'
+2016-03-22 08:38:49,657 INFO  [main] [TestListener] TestStart: 1, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-03-22 08:38:49,659 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='afac8812-4b6f-4d61-b00e-7d73a82665c3', testName='sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10'}'
+2016-03-22 08:38:49,659 INFO  [main] [TestListener] TestStart: 1, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-03-22 08:38:49,659 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10', new: 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11'
+2016-03-22 08:38:49,659 INFO  [main] [FootprintsManager] Adding footprints for test 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:38:49,660 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '0'
+2016-03-22 08:38:49,660 INFO  [main] [FootprintsManager] Empty footprints for test 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:38:49,660 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='afac8812-4b6f-4d61-b00e-7d73a82665c3', testName='sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11'}'
+2016-03-22 08:38:49,660 INFO  [main] [TestListener] TestStart: 2, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-03-22 08:38:49,660 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='afac8812-4b6f-4d61-b00e-7d73a82665c3', testName='sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11'}'
+2016-03-22 08:38:49,661 INFO  [main] [TestListener] TestStart: 2, TestEnd: 2, ExecStart:1 ExecEnd: 0
+2016-03-22 08:38:49,661 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11', new: 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:38:49,661 INFO  [main] [FootprintsManager] Adding footprints for test 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11'
+2016-03-22 08:38:49,661 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '0'
+2016-03-22 08:38:49,661 INFO  [main] [FootprintsManager] Empty footprints for test 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11'
+2016-03-22 08:38:49,661 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='afac8812-4b6f-4d61-b00e-7d73a82665c3', testName='sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'}'
+2016-03-22 08:38:49,661 INFO  [main] [TestListener] TestStart: 3, TestEnd: 2, ExecStart:1 ExecEnd: 0
+2016-03-22 08:38:49,661 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='afac8812-4b6f-4d61-b00e-7d73a82665c3', testName='sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'}'
+2016-03-22 08:38:49,661 INFO  [main] [TestListener] TestStart: 3, TestEnd: 3, ExecStart:1 ExecEnd: 0
+2016-03-22 08:38:49,773 INFO  [Thread-0] [createEventsManager] Shutting down
+2016-03-22 08:38:49,773 INFO  [Thread-0] [EventQueueSender] EventQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-03-22 08:38:49,782 INFO  [Thread-0] [EventsServiceProxy] [TO ES] - Submitting data. Sending '7' events
+2016-03-22 08:38:49,924 INFO  [Thread-0] [HttpClient] sendRequest was called. Remote url:'http://52.50.60.95:8080/api/v1/testevents/'.
+2016-03-22 08:38:59,258 INFO  [pool-1-thread-1] [FootprintsManager] sendCurrentTestPartialFootprints: current test identifier is: 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:38:59,258 INFO  [pool-1-thread-1] [FootprintsManager] Adding footprints for test 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:38:59,259 INFO  [pool-1-thread-1] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '0'
+2016-03-22 08:38:59,259 INFO  [pool-1-thread-1] [FootprintsManager] Empty footprints for test 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:38:59,951 ERROR [Thread-0] [HttpClient] Failed to send 'POST' request to 'http://52.50.60.95:8080/api/v1/testevents/'. Error: java.net.SocketTimeoutException: connect timed out
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_66]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_66]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_66]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_66]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_66]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1283) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1258) ~[na:1.8.0_66]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.writeRequestBodyToOutputStream(HttpClient.java:138) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:49) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.sendHttpRequest(JsonClient.java:184) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:91) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:85) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventsServiceProxy.submitEvents(EventsServiceProxy.java:60) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender$1.execute(EventQueueSender.java:75) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender.shutdown(EventQueueSender.java:40) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.EventsManager.shutDown(EventsManager.java:37) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.shutdown(AgentManager.java:132) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.access$000(AgentManager.java:16) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager$1.run(AgentManager.java:145) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+2016-03-22 08:38:59,954 ERROR [Thread-0] [EventsServiceProxy] Failed while trying to submit events. Error:
+java.lang.RuntimeException: Failed to send 'POST' request to 'http://52.50.60.95:8080/api/v1/testevents/'. Error: java.net.SocketTimeoutException: connect timed out
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:67) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.sendHttpRequest(JsonClient.java:184) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:91) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:85) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventsServiceProxy.submitEvents(EventsServiceProxy.java:60) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender$1.execute(EventQueueSender.java:75) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender.shutdown(EventQueueSender.java:40) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.EventsManager.shutDown(EventsManager.java:37) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.shutdown(AgentManager.java:132) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.access$000(AgentManager.java:16) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager$1.run(AgentManager.java:145) [java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_66]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_66]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_66]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_66]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_66]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1283) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1258) ~[na:1.8.0_66]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.writeRequestBodyToOutputStream(HttpClient.java:138) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:49) ~[java-agent-core-1.0.0-SNAPSHOT-jar-with-dependencies.jar:1.0.0-SNAPSHOT]
+	... 10 common frames omitted
+2016-03-22 08:38:59,955 ERROR [Thread-0] [EventQueueSender] Not re-queuing events after failed submissions -- system is in the process of shutting down
+2016-03-22 08:38:59,955 INFO  [Thread-0] [EventQueueSender] submitData. Nothing to send - queue is empty.
+2016-03-22 08:38:59,955 INFO  [Thread-0] [FootprintsManager] AgentManager.shutdown - Trigger shutdown sequence.
+2016-03-22 08:38:59,956 INFO  [Thread-0] [FootprintsManager] Adding footprints for test 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:38:59,956 INFO  [Thread-0] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '0'
+2016-03-22 08:38:59,956 INFO  [Thread-0] [FootprintsManager] Empty footprints for test 'afac8812-4b6f-4d61-b00e-7d73a82665c3/sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:38:59,956 INFO  [Thread-0] [FootprintsQueueSender] FootprintsQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-03-22 08:38:59,957 INFO  [Thread-0] [FootprintsQueueSender] submitData. Nothing to send - queue is empty.
+2016-03-22 08:45:11,579 INFO  [main] [ConfigurationManager] getOrLoadConfiguration. Loading configuration from 'C:\Work\Playground\SlTestListenerTest\sealights.json', working directory: 'C:\Work\Playground\SlTestListenerTest\Both'
+2016-03-22 08:45:11,640 INFO  [main] [ConfigurationManager] *************************** Current Configuration **********************************
+2016-03-22 08:45:11,641 INFO  [main] [ConfigurationManager] ConfigurationManager.printConfiguration. Got the following configuration: 
+2016-03-22 08:45:11,641 INFO  [main] [ConfigurationManager] --------------------------------------------------------------------------
+2016-03-22 08:45:11,641 INFO  [main] [ConfigurationManager] IsEnabled: 'true'
+2016-03-22 08:45:11,641 INFO  [main] [ConfigurationManager] Proxy: 'null'
+2016-03-22 08:45:11,641 INFO  [main] [ConfigurationManager] Server: 'http://52.50.60.95:8080/api'
+2016-03-22 08:45:11,641 INFO  [main] [ConfigurationManager] AppName: 'SlTestListenerTest'
+2016-03-22 08:45:11,641 INFO  [main] [ConfigurationManager] CustomerId: 'test'
+2016-03-22 08:45:11,641 INFO  [main] [ConfigurationManager] EnvironmentName: 'Unit Tests'
+2016-03-22 08:45:11,642 INFO  [main] [ConfigurationManager] InstrumentedPackages: 'null'
+2016-03-22 08:45:11,642 INFO  [main] [ConfigurationManager] Includes: '*sllistenertest*'
+2016-03-22 08:45:11,642 INFO  [main] [ConfigurationManager] MaxItemsInQueue: '1000'
+2016-03-22 08:45:11,642 INFO  [main] [ConfigurationManager] Interval: '10000'
+2016-03-22 08:45:11,642 INFO  [main] [ConfigurationManager] Mock: 'null'
+2016-03-22 08:45:11,642 INFO  [main] [ConfigurationManager] BuildName: 'null'
+2016-03-22 08:45:11,645 INFO  [main] [ConfigurationManager] BranchName: 'null'
+2016-03-22 08:45:11,646 INFO  [main] [ConfigurationManager] FeaturesData: 'FeaturesData{isAddDefaultExceptionHandler=false, dumpFootprints=false, dumpEvents=false}'
+2016-03-22 08:45:11,646 INFO  [main] [ConfigurationManager] ShowBytecodeAfterInstrumentation: 'false'
+2016-03-22 08:45:11,646 INFO  [main] [ConfigurationManager] Excludes: '*FastClassByGuice*, *ByCGLIB*, *EnhancerByMockitoWithCGLIB*'
+2016-03-22 08:45:11,646 INFO  [main] [ConfigurationManager] ConfigurationManager.printConfiguration. Log configuration: 
+2016-03-22 08:45:11,646 INFO  [main] [ConfigurationManager] --------------------------------------------------------------------------
+2016-03-22 08:45:11,646 INFO  [main] [ConfigurationManager] Instance: 'LogConfiguration {isEnabled():true, isAppendToConsole():false, isAppendToFile():true, getLogFileName():java-agent, getLogsFolder():logs, getFileCount():10, getLogLimitInKB():10240, getLogLevel():INFO}'
+2016-03-22 08:45:11,646 INFO  [main] [ConfigurationManager] LogLevel: 'INFO'
+2016-03-22 08:45:11,646 INFO  [main] [ConfigurationManager] LogsFolder: 'logs'
+2016-03-22 08:45:11,646 INFO  [main] [ConfigurationManager] LogFileName: 'java-agent'
+2016-03-22 08:45:11,646 INFO  [main] [ConfigurationManager] LogLimitInKB: '10240'
+2016-03-22 08:45:11,647 INFO  [main] [ConfigurationManager] FileCount: '10'
+2016-03-22 08:45:11,647 INFO  [main] [ConfigurationManager] ************************************************************************************
+2016-03-22 08:45:11,690 INFO  [main] [AgentManager] Initializing...
+2016-03-22 08:45:11,694 INFO  [main] [createEventsManager] Starting
+2016-03-22 08:45:11,694 INFO  [main] [EventQueueSender] EventQueueSender started.
+2016-03-22 08:45:11,706 INFO  [main] [AgentManager] Initialized!
+2016-03-22 08:45:11,732 INFO  [main] [ProcessColoringWeaver] Instrumenting class for process coloring: java/net/URL
+2016-03-22 08:45:11,751 INFO  [main] [ColoringClassVisitor] visit - version: '52', access: '49', name: 'java/net/URL', signature: <null>, superName: 'java/lang/Object', interfaces: '[Ljava.lang.String;@34a245ab'
+2016-03-22 08:45:11,761 INFO  [main] [ColoringClassVisitor] Created method visitor of type 'io.sealights.onpremise.agents.java.agent.core.visitors.URLConnectionMethodVisitor' for class 'java.net.URL'
+2016-03-22 08:45:11,833 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:11,837 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:11,931 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:11,940 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:11,956 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:11,976 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:11,982 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:12,028 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:12,056 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:12,058 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: sllistenertest/JunitCalcTest
+2016-03-22 08:45:12,083 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: sllistenertest/TestNgCalcTest
+2016-03-22 08:45:12,106 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:12,145 INFO  [main] [SlRunListener] Starting to run tests. description: 'null'
+2016-03-22 08:45:12,145 INFO  [main] [SlRunListener] Initializing...
+2016-03-22 08:45:12,148 INFO  [main] [createEventsManager] Pushing event: 'ExecutionStartEvent{executionId='e6957620-66a5-4eac-96b7-9ef7725c9045', framework='JUnit'}'
+2016-03-22 08:45:12,148 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'null', new: 'e6957620-66a5-4eac-96b7-9ef7725c9045/__init'
+2016-03-22 08:45:12,148 INFO  [main] [FootprintsManager] Adding footprints for test 'null'
+2016-03-22 08:45:12,148 WARN  [main] [FootprintsManager] oldIdentifier was null or empty. Footprints will not be sent.
+2016-03-22 08:45:12,148 INFO  [main] [SlRunListener] TestStart: 0, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-03-22 08:45:12,149 INFO  [main] [SlRunListener] Done Initializing. executionId: 'e6957620-66a5-4eac-96b7-9ef7725c9045'
+2016-03-22 08:45:12,153 INFO  [main] [SlRunListener] Test 'sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12' is starting. Notifying SeaLights.
+2016-03-22 08:45:12,154 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'e6957620-66a5-4eac-96b7-9ef7725c9045/__init', new: 'e6957620-66a5-4eac-96b7-9ef7725c9045/sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:45:12,154 INFO  [main] [FootprintsManager] Adding footprints for test 'e6957620-66a5-4eac-96b7-9ef7725c9045/__init'
+2016-03-22 08:45:12,154 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '1'
+2016-03-22 08:45:12,169 INFO  [main] [FootprintsManager] Set footprints: [{"name":"public sllistenertest.JunitCalcTest()","hits":1,"hash":"7c3d04b928729f0f27da4739603293ef"}]
+2016-03-22 08:45:12,169 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='e6957620-66a5-4eac-96b7-9ef7725c9045', testName='sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12'}'
+2016-03-22 08:45:12,169 INFO  [main] [SlRunListener] TestStart: 1, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-03-22 08:45:12,170 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:12,173 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: sllistenertest/Calculator
+2016-03-22 08:45:12,176 INFO  [main] [SlRunListener] Test 'sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12' has finished. hasTestPassed: 'true'
+2016-03-22 08:45:12,176 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='e6957620-66a5-4eac-96b7-9ef7725c9045', testName='sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12'}'
+2016-03-22 08:45:12,176 INFO  [main] [SlRunListener] TestStart: 1, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-03-22 08:45:12,176 INFO  [main] [SlRunListener] Test 'sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10' is starting. Notifying SeaLights.
+2016-03-22 08:45:12,176 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'e6957620-66a5-4eac-96b7-9ef7725c9045/sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12', new: 'e6957620-66a5-4eac-96b7-9ef7725c9045/sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:45:12,176 INFO  [main] [FootprintsManager] Adding footprints for test 'e6957620-66a5-4eac-96b7-9ef7725c9045/sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:45:12,176 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '4'
+2016-03-22 08:45:12,176 INFO  [main] [FootprintsManager] Set footprints: [{"name":"public sllistenertest.JunitCalcTest()","hits":1,"hash":"7c3d04b928729f0f27da4739603293ef"},{"name":"public void sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12()","hits":1,"hash":"fea47a8531b5c8176e0f7b240dfa5c97"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"}]
+2016-03-22 08:45:12,176 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='e6957620-66a5-4eac-96b7-9ef7725c9045', testName='sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'}'
+2016-03-22 08:45:12,176 INFO  [main] [SlRunListener] TestStart: 2, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-03-22 08:45:12,176 INFO  [main] [SlRunListener] Test 'sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10' has finished. hasTestPassed: 'true'
+2016-03-22 08:45:12,176 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='e6957620-66a5-4eac-96b7-9ef7725c9045', testName='sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'}'
+2016-03-22 08:45:12,176 INFO  [main] [SlRunListener] TestStart: 2, TestEnd: 2, ExecStart:1 ExecEnd: 0
+2016-03-22 08:45:12,177 INFO  [main] [SlRunListener] Finished running all tests for executionId: 'e6957620-66a5-4eac-96b7-9ef7725c9045'
+2016-03-22 08:45:12,177 INFO  [main] [createEventsManager] Pushing event: 'ExecutionEndEvent{executionId='e6957620-66a5-4eac-96b7-9ef7725c9045'}'
+2016-03-22 08:45:12,177 INFO  [main] [SlRunListener] TestStart: 2, TestEnd: 2, ExecStart:1 ExecEnd: 1
+2016-03-22 08:45:12,179 INFO  [Thread-0] [createEventsManager] Shutting down
+2016-03-22 08:45:12,179 INFO  [Thread-0] [EventQueueSender] EventQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-03-22 08:45:12,184 INFO  [Thread-0] [EventsServiceProxy] [TO ES] - Submitting data. Sending '6' events
+2016-03-22 08:45:12,284 INFO  [Thread-0] [HttpClient] sendRequest was called. Remote url:'http://52.50.60.95:8080/api/v1/testevents/'.
+2016-03-22 08:45:21,693 INFO  [pool-1-thread-1] [FootprintsManager] sendCurrentTestPartialFootprints: current test identifier is: 'e6957620-66a5-4eac-96b7-9ef7725c9045/sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:45:21,693 INFO  [pool-1-thread-1] [FootprintsManager] Adding footprints for test 'e6957620-66a5-4eac-96b7-9ef7725c9045/sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:45:21,694 INFO  [pool-1-thread-1] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '4'
+2016-03-22 08:45:21,697 INFO  [pool-1-thread-1] [FootprintsManager] Set footprints: [{"name":"public void sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10()","hits":1,"hash":"39e2f844c2de935316e4b3d0895da0c2"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"},{"name":"public int sllistenertest.Calculator.divide(int, int)","hits":1,"hash":"cbf878ab5c818ae77c9c78b22fc7251f"}]
+2016-03-22 08:45:22,304 ERROR [Thread-0] [HttpClient] Failed to send 'POST' request to 'http://52.50.60.95:8080/api/v1/testevents/'. Error: java.net.SocketTimeoutException: connect timed out
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_66]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_66]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_66]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_66]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_66]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1283) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1258) ~[na:1.8.0_66]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.writeRequestBodyToOutputStream(HttpClient.java:138) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:49) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.sendHttpRequest(JsonClient.java:184) [na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:91) [na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:85) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventsServiceProxy.submitEvents(EventsServiceProxy.java:60) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender$1.execute(EventQueueSender.java:75) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender.shutdown(EventQueueSender.java:40) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.EventsManager.shutDown(EventsManager.java:37) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.shutdown(AgentManager.java:132) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.access$000(AgentManager.java:16) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager$1.run(AgentManager.java:145) [na:na]
+2016-03-22 08:45:22,306 ERROR [Thread-0] [EventsServiceProxy] Failed while trying to submit events. Error:
+java.lang.RuntimeException: Failed to send 'POST' request to 'http://52.50.60.95:8080/api/v1/testevents/'. Error: java.net.SocketTimeoutException: connect timed out
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:67) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.sendHttpRequest(JsonClient.java:184) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:91) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:85) ~[na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventsServiceProxy.submitEvents(EventsServiceProxy.java:60) ~[na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender$1.execute(EventQueueSender.java:75) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender.shutdown(EventQueueSender.java:40) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.EventsManager.shutDown(EventsManager.java:37) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.shutdown(AgentManager.java:132) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.access$000(AgentManager.java:16) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager$1.run(AgentManager.java:145) [na:na]
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_66]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_66]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_66]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_66]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_66]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1283) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1258) ~[na:1.8.0_66]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.writeRequestBodyToOutputStream(HttpClient.java:138) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:49) ~[na:na]
+	... 10 common frames omitted
+2016-03-22 08:45:22,306 ERROR [Thread-0] [EventQueueSender] Not re-queuing events after failed submissions -- system is in the process of shutting down
+2016-03-22 08:45:22,307 INFO  [Thread-0] [EventQueueSender] submitData. Nothing to send - queue is empty.
+2016-03-22 08:45:22,307 INFO  [Thread-0] [FootprintsManager] AgentManager.shutdown - Trigger shutdown sequence.
+2016-03-22 08:45:22,307 INFO  [Thread-0] [FootprintsManager] Adding footprints for test 'e6957620-66a5-4eac-96b7-9ef7725c9045/sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:45:22,308 INFO  [Thread-0] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '0'
+2016-03-22 08:45:22,308 INFO  [Thread-0] [FootprintsManager] Empty footprints for test 'e6957620-66a5-4eac-96b7-9ef7725c9045/sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:45:22,308 INFO  [Thread-0] [FootprintsQueueSender] FootprintsQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-03-22 08:45:22,315 INFO  [Thread-0] [FootprintsServiceProxy] [TO FPS] - Total items in queue: 3, queueContents: [{"testName":"__init","executionId":"e6957620-66a5-4eac-96b7-9ef7725c9045","localTime":1458629112169,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public sllistenertest.JunitCalcTest()","hits":1,"hash":"7c3d04b928729f0f27da4739603293ef"}]}]},{"testName":"sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12","executionId":"e6957620-66a5-4eac-96b7-9ef7725c9045","localTime":1458629112176,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public sllistenertest.JunitCalcTest()","hits":1,"hash":"7c3d04b928729f0f27da4739603293ef"},{"name":"public void sllistenertest.JunitCalcTest.test_5_plus_7_shouldBe_12()","hits":1,"hash":"fea47a8531b5c8176e0f7b240dfa5c97"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"}]}]},{"testName":"sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10","executionId":"e6957620-66a5-4eac-96b7-9ef7725c9045","localTime":1458629121697,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public void sllistenertest.JunitCalcTest.test_12_divide_4_plus_7_shouldBe_10()","hits":1,"hash":"39e2f844c2de935316e4b3d0895da0c2"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"},{"name":"public int sllistenertest.Calculator.divide(int, int)","hits":1,"hash":"cbf878ab5c818ae77c9c78b22fc7251f"}]}]}]
+2016-03-22 08:45:22,322 INFO  [Thread-0] [HttpClient] sendRequest was called. Remote url:'http://52.50.60.95:8080/api/v1/testfootprints/'.
+2016-03-22 08:45:32,326 ERROR [Thread-0] [HttpClient] Failed to send 'POST' request to 'http://52.50.60.95:8080/api/v1/testfootprints/'. Error: java.net.SocketTimeoutException: connect timed out
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_66]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_66]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_66]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_66]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_66]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1283) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1258) ~[na:1.8.0_66]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.writeRequestBodyToOutputStream(HttpClient.java:138) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:49) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.sendHttpRequest(JsonClient.java:184) [na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:91) [na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:85) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.FootprintsServiceProxy.submitFootprints(FootprintsServiceProxy.java:55) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.FootprintsQueueSender$1.execute(FootprintsQueueSender.java:75) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.FootprintsQueueSender.shutdown(FootprintsQueueSender.java:40) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.FootprintsManager.shutDown(FootprintsManager.java:72) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.shutdown(AgentManager.java:133) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.access$000(AgentManager.java:16) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager$1.run(AgentManager.java:145) [na:na]
+2016-03-22 08:45:32,327 ERROR [Thread-0] [FootprintsServiceProxy] Failed while trying to submit footprints. Error:
+java.lang.RuntimeException: Failed to send 'POST' request to 'http://52.50.60.95:8080/api/v1/testfootprints/'. Error: java.net.SocketTimeoutException: connect timed out
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:67) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.sendHttpRequest(JsonClient.java:184) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:91) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:85) ~[na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.FootprintsServiceProxy.submitFootprints(FootprintsServiceProxy.java:55) ~[na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.FootprintsQueueSender$1.execute(FootprintsQueueSender.java:75) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.FootprintsQueueSender.shutdown(FootprintsQueueSender.java:40) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.FootprintsManager.shutDown(FootprintsManager.java:72) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.shutdown(AgentManager.java:133) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.access$000(AgentManager.java:16) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager$1.run(AgentManager.java:145) [na:na]
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_66]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_66]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_66]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_66]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_66]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1283) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1258) ~[na:1.8.0_66]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.writeRequestBodyToOutputStream(HttpClient.java:138) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:49) ~[na:na]
+	... 10 common frames omitted
+2016-03-22 08:45:32,328 ERROR [Thread-0] [FootprintsQueueSender] Not re-queuing events after failed submissions -- system is in the process of shutting down
+2016-03-22 08:45:32,329 INFO  [Thread-0] [FootprintsQueueSender] submitData. Nothing to send - queue is empty.
+2016-03-22 08:45:33,184 INFO  [main] [ConfigurationManager] getOrLoadConfiguration. Loading configuration from 'C:\Work\Playground\SlTestListenerTest\sealights.json', working directory: 'C:\Work\Playground\SlTestListenerTest\Both'
+2016-03-22 08:45:33,245 INFO  [main] [ConfigurationManager] *************************** Current Configuration **********************************
+2016-03-22 08:45:33,245 INFO  [main] [ConfigurationManager] ConfigurationManager.printConfiguration. Got the following configuration: 
+2016-03-22 08:45:33,245 INFO  [main] [ConfigurationManager] --------------------------------------------------------------------------
+2016-03-22 08:45:33,246 INFO  [main] [ConfigurationManager] IsEnabled: 'true'
+2016-03-22 08:45:33,246 INFO  [main] [ConfigurationManager] Proxy: 'null'
+2016-03-22 08:45:33,246 INFO  [main] [ConfigurationManager] Server: 'http://52.50.60.95:8080/api'
+2016-03-22 08:45:33,246 INFO  [main] [ConfigurationManager] AppName: 'SlTestListenerTest'
+2016-03-22 08:45:33,246 INFO  [main] [ConfigurationManager] CustomerId: 'test'
+2016-03-22 08:45:33,246 INFO  [main] [ConfigurationManager] EnvironmentName: 'Unit Tests'
+2016-03-22 08:45:33,246 INFO  [main] [ConfigurationManager] InstrumentedPackages: 'null'
+2016-03-22 08:45:33,246 INFO  [main] [ConfigurationManager] Includes: '*sllistenertest*'
+2016-03-22 08:45:33,247 INFO  [main] [ConfigurationManager] MaxItemsInQueue: '1000'
+2016-03-22 08:45:33,247 INFO  [main] [ConfigurationManager] Interval: '10000'
+2016-03-22 08:45:33,247 INFO  [main] [ConfigurationManager] Mock: 'null'
+2016-03-22 08:45:33,247 INFO  [main] [ConfigurationManager] BuildName: 'null'
+2016-03-22 08:45:33,250 INFO  [main] [ConfigurationManager] BranchName: 'null'
+2016-03-22 08:45:33,250 INFO  [main] [ConfigurationManager] FeaturesData: 'FeaturesData{isAddDefaultExceptionHandler=false, dumpFootprints=false, dumpEvents=false}'
+2016-03-22 08:45:33,251 INFO  [main] [ConfigurationManager] ShowBytecodeAfterInstrumentation: 'false'
+2016-03-22 08:45:33,251 INFO  [main] [ConfigurationManager] Excludes: '*FastClassByGuice*, *ByCGLIB*, *EnhancerByMockitoWithCGLIB*'
+2016-03-22 08:45:33,251 INFO  [main] [ConfigurationManager] ConfigurationManager.printConfiguration. Log configuration: 
+2016-03-22 08:45:33,251 INFO  [main] [ConfigurationManager] --------------------------------------------------------------------------
+2016-03-22 08:45:33,251 INFO  [main] [ConfigurationManager] Instance: 'LogConfiguration {isEnabled():true, isAppendToConsole():false, isAppendToFile():true, getLogFileName():java-agent, getLogsFolder():logs, getFileCount():10, getLogLimitInKB():10240, getLogLevel():INFO}'
+2016-03-22 08:45:33,251 INFO  [main] [ConfigurationManager] LogLevel: 'INFO'
+2016-03-22 08:45:33,251 INFO  [main] [ConfigurationManager] LogsFolder: 'logs'
+2016-03-22 08:45:33,252 INFO  [main] [ConfigurationManager] LogFileName: 'java-agent'
+2016-03-22 08:45:33,252 INFO  [main] [ConfigurationManager] LogLimitInKB: '10240'
+2016-03-22 08:45:33,252 INFO  [main] [ConfigurationManager] FileCount: '10'
+2016-03-22 08:45:33,252 INFO  [main] [ConfigurationManager] ************************************************************************************
+2016-03-22 08:45:33,267 INFO  [main] [AgentManager] Initializing...
+2016-03-22 08:45:33,268 INFO  [main] [createEventsManager] Starting
+2016-03-22 08:45:33,268 INFO  [main] [EventQueueSender] EventQueueSender started.
+2016-03-22 08:45:33,271 INFO  [main] [AgentManager] Initialized!
+2016-03-22 08:45:33,278 INFO  [main] [ProcessColoringWeaver] Instrumenting class for process coloring: java/net/URL
+2016-03-22 08:45:33,283 INFO  [main] [ColoringClassVisitor] visit - version: '52', access: '49', name: 'java/net/URL', signature: <null>, superName: 'java/lang/Object', interfaces: '[Ljava.lang.String;@3feba861'
+2016-03-22 08:45:33,285 INFO  [main] [ColoringClassVisitor] Created method visitor of type 'io.sealights.onpremise.agents.java.agent.core.visitors.URLConnectionMethodVisitor' for class 'java.net.URL'
+2016-03-22 08:45:33,309 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:33,310 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:33,339 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:33,346 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:33,346 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: sllistenertest/JunitCalcTest
+2016-03-22 08:45:33,356 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: sllistenertest/TestNgCalcTest
+2016-03-22 08:45:33,361 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:33,366 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:33,372 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:33,378 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:33,409 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:33,441 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:33,488 INFO  [main] [TestListener] Initializing  'io.sealights.onpremise.agents.java.agent.integrations.testng.TestListener'
+2016-03-22 08:45:33,490 INFO  [main] [createEventsManager] Pushing event: 'ExecutionStartEvent{executionId='fa987d09-4573-47a8-8e3b-ab6e8526f5ab', framework='TestNG'}'
+2016-03-22 08:45:33,490 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'null', new: 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/__init'
+2016-03-22 08:45:33,490 INFO  [main] [FootprintsManager] Adding footprints for test 'null'
+2016-03-22 08:45:33,490 WARN  [main] [FootprintsManager] oldIdentifier was null or empty. Footprints will not be sent.
+2016-03-22 08:45:33,490 INFO  [main] [TestListener] TestStart: 0, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-03-22 08:45:33,490 INFO  [main] [TestListener] Done Initializing. executionId:  'fa987d09-4573-47a8-8e3b-ab6e8526f5ab'
+2016-03-22 08:45:33,490 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/__init', new: 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:45:33,490 INFO  [main] [FootprintsManager] Adding footprints for test 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/__init'
+2016-03-22 08:45:33,491 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '2'
+2016-03-22 08:45:33,505 INFO  [main] [FootprintsManager] Set footprints: [{"name":"public sllistenertest.TestNgCalcTest()","hits":1,"hash":"eb1aa9a29bb42acbccfe52a058cc99bd"},{"name":"static sllistenertest.TestNgCalcTest()","hits":1,"hash":"f055dae2aeaba6a5fdb404c24b412f98"}]
+2016-03-22 08:45:33,505 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='fa987d09-4573-47a8-8e3b-ab6e8526f5ab', testName='sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10'}'
+2016-03-22 08:45:33,505 INFO  [main] [TestListener] TestStart: 1, TestEnd: 0, ExecStart:1 ExecEnd: 0
+2016-03-22 08:45:33,507 INFO  [main] [OutgoingColorHandler] handleRequest - Setting outgoing color. testIdentifier:chipopo
+2016-03-22 08:45:33,508 INFO  [main] [CodeCoverageWeaver] Instrumenting class for code coverage: sllistenertest/Calculator
+2016-03-22 08:45:33,511 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='fa987d09-4573-47a8-8e3b-ab6e8526f5ab', testName='sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10'}'
+2016-03-22 08:45:33,514 INFO  [main] [TestListener] TestStart: 1, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-03-22 08:45:33,514 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10', new: 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11'
+2016-03-22 08:45:33,514 INFO  [main] [FootprintsManager] Adding footprints for test 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10'
+2016-03-22 08:45:33,514 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '4'
+2016-03-22 08:45:33,515 INFO  [main] [FootprintsManager] Set footprints: [{"name":"public void sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10()","hits":1,"hash":"9ef08bba3748d32ce1951158b5d8cf97"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"},{"name":"public int sllistenertest.Calculator.divide(int, int)","hits":1,"hash":"cbf878ab5c818ae77c9c78b22fc7251f"}]
+2016-03-22 08:45:33,515 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='fa987d09-4573-47a8-8e3b-ab6e8526f5ab', testName='sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11'}'
+2016-03-22 08:45:33,515 INFO  [main] [TestListener] TestStart: 2, TestEnd: 1, ExecStart:1 ExecEnd: 0
+2016-03-22 08:45:33,515 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='fa987d09-4573-47a8-8e3b-ab6e8526f5ab', testName='sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11'}'
+2016-03-22 08:45:33,515 INFO  [main] [TestListener] TestStart: 2, TestEnd: 2, ExecStart:1 ExecEnd: 0
+2016-03-22 08:45:33,515 INFO  [main] [FootprintsManager] testIdentifierChanged - Test identifier was changed. Old: 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11', new: 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:45:33,515 INFO  [main] [FootprintsManager] Adding footprints for test 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11'
+2016-03-22 08:45:33,515 INFO  [main] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '4'
+2016-03-22 08:45:33,516 INFO  [main] [FootprintsManager] Set footprints: [{"name":"public void sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11()","hits":1,"hash":"a4d1f599a25a76b4fc3f447e9789bb9d"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"},{"name":"public int sllistenertest.Calculator.divide(int, int)","hits":1,"hash":"cbf878ab5c818ae77c9c78b22fc7251f"}]
+2016-03-22 08:45:33,516 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testStart', executionId='fa987d09-4573-47a8-8e3b-ab6e8526f5ab', testName='sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'}'
+2016-03-22 08:45:33,516 INFO  [main] [TestListener] TestStart: 3, TestEnd: 2, ExecStart:1 ExecEnd: 0
+2016-03-22 08:45:33,517 INFO  [main] [createEventsManager] Pushing event: 'TestEvent{type='testEnd', executionId='fa987d09-4573-47a8-8e3b-ab6e8526f5ab', testName='sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'}'
+2016-03-22 08:45:33,517 INFO  [main] [TestListener] TestStart: 3, TestEnd: 3, ExecStart:1 ExecEnd: 0
+2016-03-22 08:45:33,662 INFO  [Thread-0] [createEventsManager] Shutting down
+2016-03-22 08:45:33,662 INFO  [Thread-0] [EventQueueSender] EventQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-03-22 08:45:33,672 INFO  [Thread-0] [EventsServiceProxy] [TO ES] - Submitting data. Sending '7' events
+2016-03-22 08:45:33,798 INFO  [Thread-0] [HttpClient] sendRequest was called. Remote url:'http://52.50.60.95:8080/api/v1/testevents/'.
+2016-03-22 08:45:43,269 INFO  [pool-1-thread-1] [FootprintsManager] sendCurrentTestPartialFootprints: current test identifier is: 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:45:43,270 INFO  [pool-1-thread-1] [FootprintsManager] Adding footprints for test 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:45:43,270 INFO  [pool-1-thread-1] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '3'
+2016-03-22 08:45:43,271 INFO  [pool-1-thread-1] [FootprintsManager] Set footprints: [{"name":"public void sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12()","hits":1,"hash":"47e212edf9c52bab44e4754668526fc2"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"}]
+2016-03-22 08:45:43,819 ERROR [Thread-0] [HttpClient] Failed to send 'POST' request to 'http://52.50.60.95:8080/api/v1/testevents/'. Error: java.net.SocketTimeoutException: connect timed out
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_66]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_66]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_66]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_66]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_66]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1283) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1258) ~[na:1.8.0_66]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.writeRequestBodyToOutputStream(HttpClient.java:138) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:49) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.sendHttpRequest(JsonClient.java:184) [na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:91) [na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:85) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventsServiceProxy.submitEvents(EventsServiceProxy.java:60) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender$1.execute(EventQueueSender.java:75) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender.shutdown(EventQueueSender.java:40) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.EventsManager.shutDown(EventsManager.java:37) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.shutdown(AgentManager.java:132) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.access$000(AgentManager.java:16) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager$1.run(AgentManager.java:145) [na:na]
+2016-03-22 08:45:43,821 ERROR [Thread-0] [EventsServiceProxy] Failed while trying to submit events. Error:
+java.lang.RuntimeException: Failed to send 'POST' request to 'http://52.50.60.95:8080/api/v1/testevents/'. Error: java.net.SocketTimeoutException: connect timed out
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:67) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.sendHttpRequest(JsonClient.java:184) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:91) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:85) ~[na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventsServiceProxy.submitEvents(EventsServiceProxy.java:60) ~[na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender$1.execute(EventQueueSender.java:75) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.EventQueueSender.shutdown(EventQueueSender.java:40) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.EventsManager.shutDown(EventsManager.java:37) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.shutdown(AgentManager.java:132) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.access$000(AgentManager.java:16) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager$1.run(AgentManager.java:145) [na:na]
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_66]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_66]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_66]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_66]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_66]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1283) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1258) ~[na:1.8.0_66]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.writeRequestBodyToOutputStream(HttpClient.java:138) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:49) ~[na:na]
+	... 10 common frames omitted
+2016-03-22 08:45:43,822 ERROR [Thread-0] [EventQueueSender] Not re-queuing events after failed submissions -- system is in the process of shutting down
+2016-03-22 08:45:43,822 INFO  [Thread-0] [EventQueueSender] submitData. Nothing to send - queue is empty.
+2016-03-22 08:45:43,822 INFO  [Thread-0] [FootprintsManager] AgentManager.shutdown - Trigger shutdown sequence.
+2016-03-22 08:45:43,822 INFO  [Thread-0] [FootprintsManager] Adding footprints for test 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:45:43,822 INFO  [Thread-0] [FootprintsManager] getListOfFootprintsData. Number of footprints from the CodeCoverageManager: '0'
+2016-03-22 08:45:43,823 INFO  [Thread-0] [FootprintsManager] Empty footprints for test 'fa987d09-4573-47a8-8e3b-ab6e8526f5ab/sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12'
+2016-03-22 08:45:43,823 INFO  [Thread-0] [FootprintsQueueSender] FootprintsQueueSender.shutdown - Flushing footprints and sending all data. 
+2016-03-22 08:45:43,830 INFO  [Thread-0] [FootprintsServiceProxy] [TO FPS] - Total items in queue: 4, queueContents: [{"testName":"__init","executionId":"fa987d09-4573-47a8-8e3b-ab6e8526f5ab","localTime":1458629133505,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public sllistenertest.TestNgCalcTest()","hits":1,"hash":"eb1aa9a29bb42acbccfe52a058cc99bd"},{"name":"static sllistenertest.TestNgCalcTest()","hits":1,"hash":"f055dae2aeaba6a5fdb404c24b412f98"}]}]},{"testName":"sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10","executionId":"fa987d09-4573-47a8-8e3b-ab6e8526f5ab","localTime":1458629133515,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public void sllistenertest.TestNgCalcTest.test_12_divide_4_plus_7_shouldBe_10()","hits":1,"hash":"9ef08bba3748d32ce1951158b5d8cf97"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"},{"name":"public int sllistenertest.Calculator.divide(int, int)","hits":1,"hash":"cbf878ab5c818ae77c9c78b22fc7251f"}]}]},{"testName":"sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11","executionId":"fa987d09-4573-47a8-8e3b-ab6e8526f5ab","localTime":1458629133516,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public void sllistenertest.TestNgCalcTest.test_16_divide_4_plus_7_shouldBe_11()","hits":1,"hash":"a4d1f599a25a76b4fc3f447e9789bb9d"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"},{"name":"public int sllistenertest.Calculator.divide(int, int)","hits":1,"hash":"cbf878ab5c818ae77c9c78b22fc7251f"}]}]},{"testName":"sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12","executionId":"fa987d09-4573-47a8-8e3b-ab6e8526f5ab","localTime":1458629143271,"apps":[{"appName":"SlTestListenerTest","build":null,"branch":null,"footprints":[{"name":"public void sllistenertest.TestNgCalcTest.test_5_plus_7_shouldBe_12()","hits":1,"hash":"47e212edf9c52bab44e4754668526fc2"},{"name":"public sllistenertest.Calculator()","hits":1,"hash":"57dcb4f1539a67891a20789b8088f8b7"},{"name":"public int sllistenertest.Calculator.add(int, int)","hits":1,"hash":"fcea4e5f534f2a9ee72e8bda8ee0efe8"}]}]}]
+2016-03-22 08:45:43,836 INFO  [Thread-0] [HttpClient] sendRequest was called. Remote url:'http://52.50.60.95:8080/api/v1/testfootprints/'.
+2016-03-22 08:45:53,840 ERROR [Thread-0] [HttpClient] Failed to send 'POST' request to 'http://52.50.60.95:8080/api/v1/testfootprints/'. Error: java.net.SocketTimeoutException: connect timed out
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_66]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_66]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_66]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_66]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_66]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1283) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1258) ~[na:1.8.0_66]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.writeRequestBodyToOutputStream(HttpClient.java:138) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:49) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.sendHttpRequest(JsonClient.java:184) [na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:91) [na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:85) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.FootprintsServiceProxy.submitFootprints(FootprintsServiceProxy.java:55) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.FootprintsQueueSender$1.execute(FootprintsQueueSender.java:75) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.FootprintsQueueSender.shutdown(FootprintsQueueSender.java:40) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.FootprintsManager.shutDown(FootprintsManager.java:72) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.shutdown(AgentManager.java:133) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.access$000(AgentManager.java:16) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager$1.run(AgentManager.java:145) [na:na]
+2016-03-22 08:45:53,842 ERROR [Thread-0] [FootprintsServiceProxy] Failed while trying to submit footprints. Error:
+java.lang.RuntimeException: Failed to send 'POST' request to 'http://52.50.60.95:8080/api/v1/testfootprints/'. Error: java.net.SocketTimeoutException: connect timed out
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:67) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.sendHttpRequest(JsonClient.java:184) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:91) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.JsonClient.postRequest(JsonClient.java:85) ~[na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.FootprintsServiceProxy.submitFootprints(FootprintsServiceProxy.java:55) ~[na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.FootprintsQueueSender$1.execute(FootprintsQueueSender.java:75) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.services.FootprintsQueueSender.shutdown(FootprintsQueueSender.java:40) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.FootprintsManager.shutDown(FootprintsManager.java:72) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.shutdown(AgentManager.java:133) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager.access$000(AgentManager.java:16) [na:na]
+	at io.sealights.onpremise.agents.java.agent.core.AgentManager$1.run(AgentManager.java:145) [na:na]
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_66]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_66]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_66]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_66]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_66]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_66]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_66]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1283) ~[na:1.8.0_66]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1258) ~[na:1.8.0_66]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.writeRequestBodyToOutputStream(HttpClient.java:138) ~[na:na]
+	at io.sealights.onpremise.agents.commons.services.HttpClient.sendRequest(HttpClient.java:49) ~[na:na]
+	... 10 common frames omitted
+2016-03-22 08:45:53,842 ERROR [Thread-0] [FootprintsQueueSender] Not re-queuing events after failed submissions -- system is in the process of shutting down
+2016-03-22 08:45:53,843 INFO  [Thread-0] [FootprintsQueueSender] submitData. Nothing to send - queue is empty.

@@ -1,0 +1,7 @@
+{
+  "customerId": "test",
+  "appName": "SlTestListenerTest",
+  "server": "http://52.50.60.95:8080/api",
+  "includes":"*sllistenertest*",
+  "_proxy":"127.0.0.1:8888"
+}

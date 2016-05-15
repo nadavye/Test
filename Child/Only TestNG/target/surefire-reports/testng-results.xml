@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="18" started-at="2016-05-16T02:02:55Z" finished-at="2016-05-16T02:02:55Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="18" started-at="2016-05-16T02:02:55Z" finished-at="2016-05-16T02:02:55Z">
+      <class name="sllistenertest.CalcTest">
+        <test-method status="PASS" signature="test_12_divide_4_plus_7_shouldBe_10()[pri:0, instance:sllistenertest.CalcTest@3c5a99da]" name="test_12_divide_4_plus_7_shouldBe_10" duration-ms="6" started-at="2016-05-16T02:02:55Z" finished-at="2016-05-16T02:02:55Z">
+        </test-method>
+        <test-method status="PASS" signature="test_5_plus_7_shouldBe_12()[pri:0, instance:sllistenertest.CalcTest@3c5a99da]" name="test_5_plus_7_shouldBe_12" duration-ms="1" started-at="2016-05-16T02:02:55Z" finished-at="2016-05-16T02:02:55Z">
+        </test-method>
+        <test-method status="PASS" signature="test_16_divide_4_plus_7_shouldBe_11()[pri:0, instance:sllistenertest.CalcTest@3c5a99da]" name="test_16_divide_4_plus_7_shouldBe_11" duration-ms="0" started-at="2016-05-16T02:02:55Z" finished-at="2016-05-16T02:02:55Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
